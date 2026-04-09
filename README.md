@@ -26,9 +26,18 @@ cp -r prompt-enhancer/ ~/.config/opencode/skills/
 
 ## Usage
 
-**Load the Skill**
-```
+```bash
+# Claude Code / OpenCode
 /skill prompt-enhancer
+
+# ChatGPT — start a conversation with your Custom GPT or paste SKILL.md as the first message
+
+# Ollama
+ollama run <model> --system "$(cat SKILL.md)"
+
+# LM Studio — set System Prompt in chat settings, then start a new conversation
+
+# Open WebUI — select your Prompt Enhancer preset, then start a new conversation
 ```
 
 Then provide your raw prompt:
