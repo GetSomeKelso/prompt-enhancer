@@ -1,4 +1,4 @@
-# Prompt Enhancer Skill — Claude Native
+# Prompt Enhancer Skill
 
 Transform simple prompts into structured, high-quality prompts that produce better AI results.
 
@@ -72,7 +72,7 @@ prompt-enhancer/
 ## The R-CTCEO Framework
 
 | Component | Purpose |
-|-----------|---------|
+|-----------|----------|
 | **R**ole | Specific expert persona with domain expertise |
 | **C**ontext | Background, tech stack, audience, stakes |
 | **T**ask | Deliverables, features, success criteria |
