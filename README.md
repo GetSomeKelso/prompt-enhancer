@@ -12,9 +12,20 @@ This skill takes basic, vague prompts and automatically enhances them using the 
 # For Claude Code
 cp -r prompt-enhancer/ ~/.claude/skills/
 
-# For OpenCode (original target)
+# For OpenCode
 cp -r prompt-enhancer/ ~/.config/opencode/skills/
 ```
+
+### Other Platforms
+
+The R-CTCEO framework works with any AI — the skill file is just structured instructions.
+
+| Platform | How to Use |
+|----------|-----------|
+| **ChatGPT** | Paste `SKILL.md` contents into Custom Instructions or as a system prompt for a Custom GPT |
+| **Ollama** | Include `SKILL.md` contents as the system prompt via `--system` flag or Modelfile `SYSTEM` directive |
+| **LM Studio** | Paste into the System Prompt field in the chat settings |
+| **Open WebUI** | Add as a System Prompt preset or custom model instruction |
 
 ## Usage
 
@@ -55,7 +66,7 @@ prompt-enhancer/
 ## The R-CTCEO Framework
 
 | Component | Purpose |
-|-----------|----------|
+|-----------|---------|
 | **R**ole | Specific expert persona with domain expertise |
 | **C**ontext | Background, tech stack, audience, stakes |
 | **T**ask | Deliverables, features, success criteria |
