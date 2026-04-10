@@ -77,7 +77,7 @@ Each component is explained in detail with examples in [reference/best_practices
 | **Examples** | Few-shot demos for complex/ambiguous tasks (skip for straightforward requests) |
 | **Output Format** | Explicit section structure, file names, headers (never leave to chance) |
 
-For domain-specific templates (Security, Development, DevOps, Data, Writing, Business, Creative, Marketing, Education), see [reference/best_practices.md](reference/best_practices.md).
+For domain-specific templates (Security, Pentesting, Development, DevOps, Data, Writing, Business, Creative, Marketing, Education), see [reference/best_practices.md](reference/best_practices.md).
 
 ---
 
@@ -87,7 +87,8 @@ Use these keywords to identify the appropriate domain when enhancing a prompt:
 
 | Domain | Keywords |
 |--------|----------|
-| Security | security, appsec, vulnerability, owasp, audit, pentest, injection, xss, csrf, auth |
+| Security | security, appsec, vulnerability, owasp, audit, injection, xss, csrf, code review |
+| Pentesting | pentest, penetration test, recon, enumeration, exploit, lateral movement, privesc, red team, ctf, htb, attack surface |
 | Development | code, function, class, api, endpoint, typescript, python, javascript, php, java, react |
 | DevOps | terraform, kubernetes, docker, aws, deploy, pipeline, ci/cd, infrastructure, ansible |
 | Data | analyze, dataset, sql, query, dashboard, metrics, report, statistics, visualization |

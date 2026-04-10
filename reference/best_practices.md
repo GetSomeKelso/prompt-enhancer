@@ -213,6 +213,31 @@ OUTPUT FORMAT:
 5. Remediation Roadmap
 ```
 
+### Penetration Testing
+
+```
+ROLE: Senior penetration tester / red team operator specializing in [network/web/AD/cloud]
+CONTEXT: [Engagement type, scope, target environment, rules of engagement, time constraints]
+TASK:
+- [Reconnaissance and enumeration objectives]
+- [Exploitation targets and technique categories]
+- [Post-exploitation / lateral movement goals]
+- [Privilege escalation paths to evaluate]
+CONSTRAINTS:
+- Methodology: OWASP WSTG / PTES / MITRE ATT&CK framework
+- Stay within defined scope and rules of engagement
+- Document each step with tool commands and output
+- Rate findings with CVSS 3.1 and map to MITRE ATT&CK techniques
+- Include proof-of-concept for each exploitable finding
+- Recommend mitigations ranked by risk reduction
+OUTPUT FORMAT:
+1. Executive Summary (risk rating, critical paths found)
+2. Attack Narrative (chronological kill chain)
+3. Findings by Severity (with PoC, CVSS, ATT&CK mapping)
+4. Remediation Recommendations (ranked by impact)
+5. Appendix: Tool Output and Evidence
+```
+
 ### DevOps / Infrastructure
 
 ```

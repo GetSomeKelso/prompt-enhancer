@@ -7,8 +7,9 @@ Before/after examples showing R-CTCEO enhancement across diverse domains.
 ## Table of Contents
 
 1. [Security & AppSec](#security--appsec)
-2. [Data Analysis](#data-analysis)
-3. [Creative Writing](#creative-writing)
+2. [Penetration Testing](#penetration-testing)
+3. [Data Analysis](#data-analysis)
+4. [Creative Writing](#creative-writing)
 
 ---
 
@@ -66,9 +67,63 @@ OUTPUT FORMAT:
 
 ---
 
+## Penetration Testing
+
+### Example 2: Web Application Pentest
+
+**Before:**
+```
+Pentest this web app
+```
+
+**After (Concise):**
+```
+Act as a senior penetration tester specializing in web applications. Conduct a
+black-box assessment of the target web application following OWASP WSTG methodology.
+Enumerate the attack surface, test for injection flaws, authentication bypasses,
+IDOR, SSRF, and business logic vulnerabilities. Document each finding with a
+proof-of-concept, CVSS 3.1 score, MITRE ATT&CK mapping, and prioritized remediation.
+```
+
+**After (Detailed):**
+```
+ROLE: You are a senior penetration tester with expertise in web application
+security, OWASP WSTG methodology, and MITRE ATT&CK mapping.
+
+CONTEXT: A client has authorized a black-box penetration test of their production
+web application prior to a compliance audit. The engagement has a defined scope
+and rules of engagement. Findings will be presented to both technical and
+executive stakeholders.
+
+TASK:
+- Reconnaissance: enumerate subdomains, endpoints, technologies, and API routes
+- Authentication testing: brute force protections, session management, token handling, MFA bypass
+- Injection testing: SQLi, XSS (reflected/stored/DOM), SSTI, command injection, LDAP injection
+- Access control: IDOR, privilege escalation (horizontal and vertical), forced browsing
+- Server-side: SSRF, XXE, deserialization, file upload bypass
+- Business logic: rate limiting, workflow bypasses, race conditions, price manipulation
+
+CONSTRAINTS:
+- Methodology: OWASP WSTG 4.2 as primary, PTES for structure
+- Map all findings to MITRE ATT&CK techniques
+- Score with CVSS 3.1 including vector string
+- Include working proof-of-concept (curl/Burp/script) for each finding
+- Stay within authorized scope — flag any out-of-scope discoveries without exploiting
+- Recommend mitigations ranked by risk reduction and implementation effort
+
+OUTPUT FORMAT:
+1. Executive Summary (overall risk, critical attack paths, business impact)
+2. Attack Narrative (chronological kill chain from recon to impact)
+3. Findings by Severity (PoC, CVSS, ATT&CK ID, affected endpoint)
+4. Remediation Roadmap (immediate / short-term / long-term)
+5. Appendix: Tool Output, Screenshots, and Raw Evidence
+```
+
+---
+
 ## Data Analysis
 
-### Example 2: Performance Log Analysis
+### Example 3: Performance Log Analysis
 
 **Before:**
 ```
@@ -121,7 +176,7 @@ OUTPUT FORMAT:
 
 ## Creative Writing
 
-### Example 3: Blog Post
+### Example 4: Blog Post
 
 **Before:**
 ```

@@ -83,6 +83,7 @@ prompt-enhancer/
 ## Supported Domains
 
 - **Security / AppSec** — OWASP, CVSS, severity ratings, remediation code
+- **Penetration Testing** — PTES, MITRE ATT&CK, kill chains, PoC, red team reporting
 - **Development** — Language-specific, code quality, testing standards
 - **DevOps / Infrastructure** — Tool versions, compliance, SLA requirements
 - **Data Analysis** — Methodology, statistical rigor, visualization
