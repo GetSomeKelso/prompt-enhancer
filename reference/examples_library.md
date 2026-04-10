@@ -10,6 +10,7 @@ Before/after examples showing R-CTCEO enhancement across diverse domains.
 2. [Penetration Testing](#penetration-testing)
 3. [Data Analysis](#data-analysis)
 4. [Creative Writing](#creative-writing)
+5. [Career / Professional](#career--professional)
 
 ---
 
@@ -222,6 +223,59 @@ OUTPUT FORMAT:
 3. Hook / Introduction
 4. Body sections (3 with subheadings)
 5. Conclusion with actionable takeaway
+```
+
+---
+
+## Career / Professional
+
+### Example 5: Resume
+
+**Before:**
+```
+Write me a resume
+```
+
+**After (Concise):**
+```
+Act as a senior career coach specializing in tech industry hiring. Write a
+one-page resume for a mid-career professional transitioning from systems
+administration to cloud engineering. Tailor bullet points to a specific job
+description using quantified achievements, ensure ATS compatibility with
+standard section headers, and avoid buzzwords like "passionate" or "team player."
+```
+
+**After (Detailed):**
+```
+ROLE: You are a senior career coach and resume writer with expertise in
+tech industry hiring practices, ATS optimization, and career transitions.
+
+CONTEXT: A mid-career IT professional with 8 years in systems administration
+is targeting cloud engineering roles. They have AWS and Terraform experience
+from side projects but their current resume reads as pure sysadmin. The resume
+will be submitted through applicant tracking systems before reaching a human.
+
+TASK:
+- Rewrite the professional summary to position for cloud engineering
+- Convert sysadmin responsibilities into cloud-relevant achievements with metrics
+- Highlight transferable skills (infrastructure, automation, monitoring)
+- Tailor keywords to match a provided job description
+- Include a technical skills section organized by category
+
+CONSTRAINTS:
+- One page maximum
+- ATS-friendly: standard section headers, no tables/columns/graphics
+- Every bullet point must include a quantified result (%, $, time saved)
+- No buzzwords: "passionate," "team player," "go-getter," "self-starter"
+- Use reverse chronological format
+- Font: readable at 10-11pt, standard margins
+
+OUTPUT FORMAT:
+1. Professional Summary (3 lines)
+2. Technical Skills (categorized: Cloud, IaC, Monitoring, OS, Scripting)
+3. Professional Experience (reverse chronological, 3-4 bullet points each)
+4. Certifications
+5. Education
 ```
 
 ---

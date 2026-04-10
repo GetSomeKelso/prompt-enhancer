@@ -77,7 +77,7 @@ Each component is explained in detail with examples in [reference/best_practices
 | **Examples** | Few-shot demos for complex/ambiguous tasks (skip for straightforward requests) |
 | **Output Format** | Explicit section structure, file names, headers (never leave to chance) |
 
-For domain-specific templates (Security, Pentesting, Development, DevOps, Data, Writing, Business, Creative, Marketing, Education), see [reference/best_practices.md](reference/best_practices.md).
+For domain-specific templates, see [reference/best_practices.md](reference/best_practices.md).
 
 ---
 
