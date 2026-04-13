@@ -1,6 +1,6 @@
 # Prompt Enhancer Skill
 
-Transform simple prompts into structured, high-quality prompts that produce better AI results.
+Turn vague prompts into structured, expert-level prompts that get better results from any AI.
 
 ## What is Prompt Enhancer?
 
@@ -72,7 +72,7 @@ prompt-enhancer/
 ## The R-CTCEO Framework
 
 | Component | Purpose |
-|-----------|----------|
+|-----------|---------|
 | **R**ole | Specific expert persona with domain expertise |
 | **C**ontext | Background, tech stack, audience, stakes |
 | **T**ask | Deliverables, features, success criteria |
